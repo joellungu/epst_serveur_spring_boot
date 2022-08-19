@@ -2,7 +2,6 @@ package com.epst.epst.controllers;
 
 import java.util.LinkedList;
 import java.util.List;
-
 //import javax.transaction.Transactional;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
@@ -16,7 +15,6 @@ import javax.ws.rs.core.MediaType;
 //import javax.ws.rs.core.MultivaluedMap;
 import javax.ws.rs.core.Response;
 //import org.jboss.resteasy.plugins.providers.multipart.MultipartFormDataInput;
-
 import com.epst.epst.beans.Magasin;
 import com.epst.epst.models.ModelMagasin;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -146,11 +144,11 @@ public class MagasinControlleur {
 
     }
 
-    
+    /* 
     @Path("update/{id}")
     @POST()
     @Consumes(MediaType.APPLICATION_OCTET_STREAM) //"multipart/form-data")
-    Response sendMultipartData(byte[] data){//byte[] data, @PathParam("id") Long id
+    Response sendMultipartDatasss(byte[] data){//byte[] data, @PathParam("id") Long id
         //
         String fileName = "";//
 		
@@ -170,5 +168,5 @@ public class MagasinControlleur {
 
         //return null;
     }
-    //
+   */
 }
